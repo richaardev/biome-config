@@ -13,7 +13,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "suspicious": {
         "noReactForwardRef": "error",
         "noUnknownAtRules": "off"
@@ -34,7 +34,7 @@
           "level": "error",
           "options": {}
         }
-      },
+      }
     }
   },
   "css": {

@@ -2,7 +2,7 @@
   "name": "@richaardev/biome-config",
   "description": "My personal biome configuration",
   "author": "richaardev <me@richaar.dev>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "exports": {
     "./presets/*": "./presets/*"

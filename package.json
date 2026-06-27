@@ -1,0 +1,21 @@
+{
+  "name": "@richaardev/biome-config",
+  "description": "My personal biome configuration",
+  "author": "richaardev <me@richaar.dev>",
+  "version": "1.0.0",
+  "private": false,
+  "exports": {
+    "./presets/*": "./presets/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richaardev/biome-config.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.1"
+  }
+}

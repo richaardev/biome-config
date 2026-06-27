@@ -1,0 +1,45 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "useSortedAttributes": {
+          "level": "on",
+          "options": { "sortOrder": "lexicographic" }
+        }
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noReactForwardRef": "error",
+        "noUnknownAtRules": "off"
+      },
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "warn",
+          "options": {
+            "attributes": ["classList"],
+            "functions": ["clsx", "cva", "tv"]
+          }
+        }
+      },
+      "correctness": {
+        "useExhaustiveDependencies": {
+          "fix": "safe",
+          "level": "error",
+          "options": {}
+        }
+      },
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  }
+}

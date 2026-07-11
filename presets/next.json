@@ -1,4 +1,4 @@
 {
   "$schema": "https://biomejs.dev/schemas/latest/schema.json",
-  "extends": ["./base.json"]
+  "extends": ["./react.json"]
 }
